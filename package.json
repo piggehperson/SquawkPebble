@@ -1,0 +1,33 @@
+{
+  "name": "squawk",
+  "author": "lavendork",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "squawk",
+    "uuid": "6c3f2755-20b9-4360-958e-cd0f3b2daf44",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "JSReady",
+      "StartListening",
+      "TweetMessage",
+      "ErrorType",
+      "AccountName",
+      "PromptAddAccount"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
